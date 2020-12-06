@@ -269,7 +269,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     case LDAPPWMACRO:
       if (record->event.pressed) {
         // when keycode LDAPPWMACRO is pressed
-        SEND_STRING("456EMHAbayu");
+        SEND_STRING("letseeee");
       } else {
         // when keycode LDAPMACRO is released
       }
